@@ -1,0 +1,129 @@
+item: ('dan', 'danr', 'numb') , 0.401
+item: ('CG8147', 'danr') , 0.403
+item: ('CG43394', 'CG8147') , 0.405
+item: ('dan', 'brk', 'danr') , 0.407
+item: ('CG43394', 'CG14427', 'dan') , 0.408
+item: ('CG14427', 'prd') , 0.408
+item: ('dan', 'brk') , 0.410
+item: ('Ama', 'CG14427') , 0.410
+item: ('CG43394', 'ImpL2', 'CG14427') , 0.411
+item: ('h',) , 0.412
+item: ('Kr',) , 0.414
+item: ('CG14427', 'trn') , 0.414
+item: ('dan', 'danr', 'trn') , 0.414
+item: ('dan', 'numb') , 0.415
+item: ('brk', 'danr') , 0.416
+item: ('ImpL2', 'Nek2') , 0.417
+item: ('CG43394', 'CG14427', 'danr') , 0.423
+item: ('dan', 'trn') , 0.424
+item: ('danr', 'trn') , 0.428
+item: ('dan', 'Nek2', 'danr') , 0.429
+item: ('Btk29A', 'numb') , 0.429
+item: ('CG43394', 'CG14427', 'Nek2') , 0.430
+item: ('dan', 'danr', 'tsh') , 0.433
+item: ('danr', 'numb') , 0.433
+item: ('ftz',) , 0.434
+item: ('dan', 'Nek2') , 0.439
+item: ('danr', 'tsh') , 0.439
+item: ('dan', 'tsh') , 0.440
+item: ('dpn',) , 0.445
+item: ('CG14427', 'CG8147') , 0.452
+item: ('Nek2', 'danr') , 0.452
+item: ('pxb',) , 0.458
+item: ('prd', 'dan', 'danr') , 0.464
+item: ('tsh',) , 0.466
+item: ('CG14427', 'Nek2') , 0.467
+item: ('CG43394', 'dan', 'danr') , 0.469
+item: ('prd', 'dan') , 0.472
+item: ('CG43394', 'ImpL2') , 0.474
+item: ('prd', 'danr') , 0.477
+item: ('CG14427', 'ImpL2', 'dan', 'danr') , 0.480
+item: ('brk',) , 0.482
+item: ('CG43394', 'dan') , 0.483
+item: ('CG14427', 'dan', 'ImpL2') , 0.489
+item: ('CG43394', 'danr') , 0.498
+item: ('ImpL2', 'danr', 'CG14427') , 0.499
+item: ('prd',) , 0.526
+item: ('numb',) , 0.527
+item: ('trn',) , 0.529
+item: ('Btk29A',) , 0.546
+item: ('CG43394', 'Nek2') , 0.547
+item: ('CG43394', 'CG14427') , 0.556
+item: ('Ama',) , 0.561
+item: ('ImpL2', 'dan', 'danr') , 0.562
+item: ('ImpL2', 'CG14427') , 0.572
+item: ('ImpL2', 'dan') , 0.572
+item: ('ImpL2', 'danr') , 0.582
+item: ('CG14427', 'dan', 'danr') , 0.590
+item: ('CG14427', 'dan') , 0.602
+item: ('CG8147',) , 0.606
+item: ('Nek2',) , 0.612
+item: ('CG14427', 'danr') , 0.620
+item: ('ImpL2',) , 0.670
+item: ('CG43394',) , 0.684
+item: ('dan', 'danr') , 0.727
+item: ('dan',) , 0.751
+item: ('CG14427',) , 0.760
+item: ('danr',) , 0.762
+
+------------------------ RULES:
+Rule: ('dan',) ==> ('CG14427',) , 0.802
+Rule: ('trn',) ==> ('dan',) , 0.803
+Rule: ('CG14427', 'danr') ==> ('ImpL2',) , 0.805
+Rule: ('trn',) ==> ('danr',) , 0.810
+Rule: ('dan', 'danr') ==> ('CG14427',) , 0.812
+Rule: ('CG14427', 'dan') ==> ('ImpL2',) , 0.812
+Rule: ('CG14427', 'dan', 'danr') ==> ('ImpL2',) , 0.813
+Rule: ('CG43394',) ==> ('CG14427',) , 0.814
+Rule: ('danr',) ==> ('CG14427',) , 0.814
+Rule: ('numb',) ==> ('Btk29A',) , 0.815
+Rule: ('CG14427',) ==> ('danr',) , 0.816
+Rule: ('numb',) ==> ('danr',) , 0.823
+Rule: ('ImpL2', 'danr') ==> ('CG14427', 'dan') , 0.825
+Rule: ('ImpL2',) ==> ('dan', 'danr') , 0.839
+Rule: ('ImpL2', 'dan') ==> ('CG14427', 'danr') , 0.839
+Rule: ('CG14427', 'ImpL2') ==> ('dan', 'danr') , 0.839
+Rule: ('CG43394', 'dan') ==> ('CG14427',) , 0.843
+Rule: ('brk',) ==> ('dan', 'danr') , 0.844
+Rule: ('brk',) ==> ('dan',) , 0.850
+Rule: ('CG43394', 'danr') ==> ('CG14427',) , 0.850
+Rule: ('ImpL2',) ==> ('CG14427',) , 0.854
+Rule: ('ImpL2',) ==> ('dan',) , 0.854
+Rule: ('ImpL2', 'dan', 'danr') ==> ('CG14427',) , 0.854
+Rule: ('ImpL2', 'dan') ==> ('CG14427',) , 0.855
+Rule: ('CG14427', 'ImpL2') ==> ('dan',) , 0.855
+Rule: ('ImpL2', 'danr') ==> ('CG14427',) , 0.858
+Rule: ('brk',) ==> ('danr',) , 0.862
+Rule: ('CG43394', 'ImpL2') ==> ('CG14427',) , 0.868
+Rule: ('ImpL2',) ==> ('danr',) , 0.869
+Rule: ('ImpL2', 'CG14427') ==> ('danr',) , 0.873
+Rule: ('prd',) ==> ('dan', 'danr') , 0.881
+Rule: ('Nek2',) ==> ('CG43394',) , 0.894
+Rule: ('prd',) ==> ('dan',) , 0.897
+Rule: ('prd',) ==> ('danr',) , 0.907
+Rule: ('CG14427', 'Nek2') ==> ('CG43394',) , 0.921
+Rule: ('danr', 'numb') ==> ('dan',) , 0.926
+Rule: ('tsh',) ==> ('dan', 'danr') , 0.930
+Rule: ('CG43394', 'danr') ==> ('dan',) , 0.941
+Rule: ('tsh',) ==> ('danr',) , 0.943
+Rule: ('tsh',) ==> ('dan',) , 0.945
+Rule: ('Nek2', 'danr') ==> ('dan',) , 0.948
+Rule: ('CG14427', 'danr') ==> ('dan',) , 0.951
+Rule: ('danr',) ==> ('dan',) , 0.954
+Rule: ('CG14427', 'danr', 'ImpL2') ==> ('dan',) , 0.961
+Rule: ('ImpL2', 'danr') ==> ('dan',) , 0.965
+Rule: ('danr', 'trn') ==> ('dan',) , 0.966
+Rule: ('dan',) ==> ('danr',) , 0.968
+Rule: ('dan', 'numb') ==> ('danr',) , 0.968
+Rule: ('CG43394', 'dan') ==> ('danr',) , 0.970
+Rule: ('prd', 'danr') ==> ('dan',) , 0.972
+Rule: ('dan', 'trn') ==> ('danr',) , 0.975
+Rule: ('dan', 'Nek2') ==> ('danr',) , 0.977
+Rule: ('brk', 'danr') ==> ('dan',) , 0.979
+Rule: ('CG14427', 'dan') ==> ('danr',) , 0.980
+Rule: ('CG14427', 'dan', 'ImpL2') ==> ('danr',) , 0.981
+Rule: ('prd', 'dan') ==> ('danr',) , 0.982
+Rule: ('ImpL2', 'dan') ==> ('danr',) , 0.982
+Rule: ('dan', 'tsh') ==> ('danr',) , 0.984
+Rule: ('danr', 'tsh') ==> ('dan',) , 0.987
+Rule: ('dan', 'brk') ==> ('danr',) , 0.993
